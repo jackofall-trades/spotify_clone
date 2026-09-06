@@ -1,4 +1,4 @@
-import SectionGridSkeleton from "./SectionGridSkeleton";
+import SectionGridSkeleton from "./skeletons/SectionGridSkeleton";
 import type { Song } from "../lib/types";
 import { Button } from "@/components/ui/button";
 import PlayButton from "./PlayButton";

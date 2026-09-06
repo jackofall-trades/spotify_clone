@@ -1,4 +1,4 @@
-import UsersListSkeleton from "./UsersListSkeleton";
+import UsersListSkeleton from "./skeletons/UsersListSkeleton";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useChatStore } from "@/stores/useChatStore";

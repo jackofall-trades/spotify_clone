@@ -28,6 +28,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5001;
 
+//for building socket server on top of express
 const httpServer = createServer(app);
 initializeSocket(httpServer);
 

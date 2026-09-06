@@ -1,4 +1,4 @@
-import PlaylistSkeleton from "@/components/PlaylistSkeleton";
+import PlaylistSkeleton from "@/components/skeletons/PlaylistSkeleton";
 import { buttonVariants } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils"; 
@@ -61,11 +61,12 @@ const LeftSidebar = () => {
                         <span className='hidden md:inline'> Playlists </span>
                     </div>
                 </div>
+
                 <ScrollArea className="h-[calc(100vh-300px)]">
                     <div className="space-y-2">
                         {isLoading? (
                             <PlaylistSkeleton/>
-                        ): (
+                        ) : (
                             albums.map((album) => (
                                 <Link to={`/albums/${album._id}`} key={album._id}
                                 className="p-2> hover:bg-zinc-800 rounded-md flex items-center gap-3 group cursor-pointer">

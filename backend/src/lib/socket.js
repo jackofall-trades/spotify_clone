@@ -1,6 +1,18 @@
 import { Server } from "socket.io";
 import { Message } from "../models/msgModel.js";
 
+/*
+listening to events
+	socket.on
+		for server and client
+
+sends events
+	io.emit
+		for server to client
+	socket.emit
+		for client to server
+ */
+
 export const initializeSocket = (server) => {
 	const io = new Server(server, {
 		cors: {

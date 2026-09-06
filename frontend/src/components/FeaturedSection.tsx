@@ -1,5 +1,5 @@
 import { useMusicStore } from "@/stores/useMusicStore";
-import FeaturedGridSkeleton from "./FeaturedGridSkeleton";
+import FeaturedGridSkeleton from "./skeletons/FeaturedGridSkeleton";
 import PlayButton from "./PlayButton";
 
 const FeaturedSection = () => {

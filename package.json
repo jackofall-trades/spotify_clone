@@ -1,5 +1,5 @@
 {
-  "name": "spotify_clone",
+  "name": "PulseRoom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jackofall-trades/spotify_clone.git"
+    "url": "git+https://github.com/Anshr23/PulseRoom.git"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,7 @@
     "node": "20.x"
   },
   "bugs": {
-    "url": "https://github.com/jackofall-trades/spotify_clone/issues"
+    "url": "https://github.com/Anshr23/PulseRoom.git/issues"
   },
-  "homepage": "https://github.com/jackofall-trades/spotify_clone#readme"
+  "homepage": "https://github.com/Anshr23/PulseRoom.git#readme"
 }
